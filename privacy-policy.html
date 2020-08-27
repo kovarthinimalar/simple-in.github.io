@@ -197,7 +197,7 @@
             <section>
                 <div>
                     <p>
-                        QwickSoft © 2016. ALL RIGHT RESERVED
+                       KesarSoft © 2016. ALL RIGHT RESERVED
                     </p>
                 </div>
             </section>
@@ -207,91 +207,6 @@
 
 
     </div>
-
-
-
-
-    <button id="backToTop"
-        data-upgraded=",MaterialButton,MaterialRipple"><i></i><span></span></span></button>
-
-
-    <script>
-        (function () {
-            var delay = false;
-
-            $(document).on('mousewheel DOMMouseScroll', function (event) {
-                event.preventDefault();
-                if (delay) return;
-
-                delay = true;
-                setTimeout(function () { delay = false }, 200)
-
-                var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
-
-                var a = document.getElementsByTagName('a');
-                if (wd < 0) {
-                    for (var i = 0; i < a.length; i++) {
-                        var t = a[i].getClientRects()[0].top;
-                        if (t >= 40) break;
-                    }
-                }
-                else {
-                    for (var i = a.length - 1; i >= 0; i--) {
-                        var t = a[i].getClientRects()[0].top;
-                        if (t < -20) break;
-                    }
-                }
-                $('html,body').animate({
-                    scrollTop: a[i].offsetTop
-                });
-            });
-        })();
-    </script>
-    <script>window.jQuery || document.write('<script type="text/javascript" src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script type="text/javascript" src="./privacy-policy,html_files/jquery-1.10.2.min.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/js"></script>
-
-
-    <script type="text/javascript" src="./privacy-policy,html_files/widgets.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/material.min.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/all-plugins.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/common-plugins.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/owl.carousel.min.js.download"></script>
-
-    <script type="text/javascript" src="./privacy-policy,html_files/jquery.magnific-popup.min.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/jwplayer.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/jquery.themepunch.tools.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/jquery.themepunch.revolution.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.actions.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.carousel.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.kenburn.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.layeranimation.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.migration.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.navigation.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.parallax.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.slideanims.min.js.download"></script>
-    <script type="text/javascript"
-        src="./privacy-policy,html_files/revolution.extension.video.min.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/common.js(2).download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/all-components.js.download"></script>
-    <script type="text/javascript" src="./privacy-policy,html_files/main.js.download"></script>
-    <script>
-        $.urlParam = function (name) {
-            var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.search);
-            return (results !== null) ? results[1] || 0 : false;
-        }
-        var appname = $.urlParam('appname');
-        $('.appname').html(decodeURIComponent(appname));
-    </script>
-</body>
+ </body>
 
 </html>
